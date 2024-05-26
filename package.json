@@ -1,0 +1,12 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwindcss" : "npx tailwindcss -i ./src/main.css -o ./build/style.css -w" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

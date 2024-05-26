@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-gray-950 text-white">
+
+    <div class="title flex justify-evenly my-5">
+        <button id="newGame" class="px-3 h-12 rounded bg-green-700"> New Game </button>
+        <p class="font-semibold text-center m-5 text-2xl">Rock Paper Scissors</p>
+        <button id="restart" class="px-3 h-12 rounded bg-orange-700"> Restart </button>
+    </div>
+
+    <div class="playarea flex justify-evenly items-center text-center my-14">
+        <div class="player flex flex-col items-center">
+            <p id='playerName' class="name text-2xl"> Player </p>
+            <p id="player-score" class="score text-4xl py-3">0</p>
+
+            <div class="Choice">
+                <img id='scissors' src="./Assets/scissors.png" class="playerChoice w-40 my-12" alt="">
+            </div>
+
+            <div class="mychoice">
+                <button id="rock" class="rock bg-blue-400 px-3 py-2 text-black font-semibold rounded"> Rock </button>
+                <button id="paper" class="paper bg-blue-400 px-3 py-2 text-black font-semibold rounded"> Paper </button>
+                <button id='scissors' class="scissors bg-blue-400 px-3 py-2 text-black font-semibold rounded"> Scissors </button>
+            </div>
+        </div>
+
+        <div class="shoot-div">
+            <p id="status" class="font-semibold text-2xl w-48">-</p>
+            <button class="shoot px-10 py-2 my-5 rounded bg-blue-700"> Shoot </button>
+         
+        </div>
+
+        <div class="Computer">
+            <div id='cpuName'  class="name text-2xl"> Computer </div>
+            <p id="computer-score" class="score text-4xl py-3">0</p>
+            <div class="Choice">
+                <img src="./Assets/rock.png" class="computerChoice w-40 my-12" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
